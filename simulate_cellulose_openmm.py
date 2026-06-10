@@ -179,8 +179,9 @@ def main():
     simulation.step(args.equilibration_steps)
 
     print("Adding reporters...")
+
     simulation.reporters.append(
-        DCDReporter(args.traj_output, args.report_interval)
+        DCDReporter(args.traj_output, args.report_interval, enforcePeriodicBox=False)
     )
 
     simulation.reporters.append(
