@@ -1,0 +1,16 @@
+#include "charmm36-jul2021/forcefield.itp"
+#include "lcc1.prm"
+#include "final_110.itp"
+#include "fix_backbone.itp"
+#include "lcc1.itp"
+#include "charmm36-jul2021/tip3p.itp"
+
+[ system ]
+; Name
+test big surface in water
+
+[ molecules ]
+; Compound		  #mols
+Other_chain_X	16
+lcc1            1
+SOL             15912
