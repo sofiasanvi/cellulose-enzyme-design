@@ -217,11 +217,4 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-msact_traj.dcd
-msact_data.csv
-cellulose_data.csv
-cellulose_traj.dcd
-output_centrerad.xtc
-output_centrerad2.xtc
-hel_trajektoria.xtc
-cellulose_traj_periodic_solved.dcd
+trajectories/
